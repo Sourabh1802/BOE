@@ -21,7 +21,7 @@ export default function App() {
         <ClientsVideos />
         <Services />
         <About />
-        <Team />
+        {/* <Team /> */}
         <Contact />
       </main>
       <Footer />
