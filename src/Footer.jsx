@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className="mt-2">
           <span className="font-semibold text-white">GST:</span> 27AAFCB4092B1ZY &nbsp;•&nbsp; 
-          <span className="font-semibold text-white">CIN:</span> U92412MH2012PTC235721
+        
         </div>
       </div>
     </footer>
