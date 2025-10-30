@@ -1,3 +1,4 @@
 import React from 'react'
-export default function Logo({ className = '' })
- { return <img src="/public/logo.png" alt="Blue Orchid Logo" className={`object-contain ${className}`} /> }
+import logo from '../assets/logo.png'
+
+export default function Logo({ className = '' }) { return <img src={logo} alt="Blue Orchid Logo" className={`object-contain ${className}`} /> }
