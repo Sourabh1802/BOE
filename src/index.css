@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.soft-card { box-shadow: 0 6px 20px rgba(2,6,23,0.25); }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjust based on header height */
+}
