@@ -42,11 +42,12 @@ Andheri West, Mumbai, Maharashtra 400061
               <div>
                 📞 Call:{' '}
                 <a href="tel:9819189871 " className="underline hover:text-blue-400">
-                9819189871 
-                </a> ,
-                <a href="tel:7738050093 " className="underline hover:text-blue-400">7738050093</a>
+                +91 79771 1847
+                </a> 
+                
+                {/* <a href="tel:7738050093 " className="underline hover:text-blue-400">7738050093</a> */}
               </div>
-              <div>Ext: 3431</div>
+              {/* <div>Ext: 3431</div> */}
               <div>GST: 27AAFCB4092B1ZY</div>
             </div>
 

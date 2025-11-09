@@ -9,7 +9,7 @@ export default function Header() {
     { name: "Home", href: "#home" },
     { name: "Products & Services", href: "#services" },
     { name: "About Us", href: "#about" },
-    { name: "Photos", href: "#photos" },
+    { name: "Events", href: "#events" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -24,7 +24,7 @@ export default function Header() {
               Blue Orchid Entertainment
             </h1>
             <p className="text-[0.7rem] sm:text-xs text-gray-400">
-              Events • Artist Management • Weddings
+            Talent, Events, Productions
             </p>
           </div>
         </div>

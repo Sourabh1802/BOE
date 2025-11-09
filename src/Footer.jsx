@@ -10,7 +10,7 @@ export default function Footer() {
           </span> — All rights reserved.
         </div>
         <div className="mt-2">
-          <span className="font-semibold text-white">GST:</span> 27AAFCB4092B1ZY &nbsp;•&nbsp; 
+          <span className="font-semibold text-white">GST:</span> 27AAFCB4092B2ZX &nbsp;•&nbsp; 
         
         </div>
       </div>

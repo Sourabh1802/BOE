@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// ✅ Correct image paths — use `/filename.jpg` (not /public/filename)
+// ✅ Correct image paths — use `/filename.png` (not /public/filename)
 const images = [
   "/WhatsApp Image 2025-10-27 at 17.14.17 (1).jpeg",
   "/WhatsApp Image 2025-10-27 at 17.14.16.jpeg",
