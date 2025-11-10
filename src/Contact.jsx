@@ -32,9 +32,7 @@ export default function Contact() {
           >
             <h4 className="text-xl font-bold">Blue Orchid Entertainment Pvt. Ltd.</h4>
             <p className="text-sm text-gray-300 mt-3 leading-relaxed">
-            Blue Orchid Entertainment Pvt. Ltd.
-B 178, Aram Nagar Part 2, Jeet Nagar, Versova, 
-Andheri West, Mumbai, Maharashtra 400061
+            B/178, Aram Nagar, Part 2, OPP. Zima Restaurant, next to Arbab, Versova, Andheri West, Mumbai 400061.
 
             </p>
 
@@ -48,7 +46,7 @@ Andheri West, Mumbai, Maharashtra 400061
                 {/* <a href="tel:7738050093 " className="underline hover:text-blue-400">7738050093</a> */}
               </div>
               {/* <div>Ext: 3431</div> */}
-              <div>GST: 27AAFCB4092B1ZY</div>
+              <div>GST: 27AAFCB4092B2ZX</div>
             </div>
 
             <div className="mt-6">
