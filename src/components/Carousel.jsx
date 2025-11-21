@@ -6,19 +6,19 @@ const DEFAULT_ITEMS = [
     id: 1,
     title: "Actor Name",
     mobileImage: "/src/assets/BANNERS/1.png",
-    desktopImage: "/src/assets/BANNERS/banner1 copy.png",
+    desktopImage: "/src/assets/BANNERS/banner.png",
   },
   {
     id: 2,
     title: "Actress Name",
     mobileImage: "/src/assets/BANNERS/2.png",
-    desktopImage: "/src/assets/BANNERS/banner2 copy.png",
+    desktopImage: "/src/assets/BANNERS/banner2.png",
   },
   {
     id: 3,
     title: "Model",
     mobileImage: "/src/assets/BANNERS/3.png",
-    desktopImage: "/src/assets/BANNERS/banner3 copy.png",
+    desktopImage: "/src/assets/BANNERS/banner3.png",
   },
   {
     id: 4,
