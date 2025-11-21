@@ -1,30 +1,38 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, useMotionValue, useTransform } from "motion/react";
+import banner1 from '../assets/BANNERS/banner.png'
+import banner2 from '../assets/BANNERS/banner2.png'
+import banner3 from '../assets/BANNERS/banner3.png'
+import banner4 from '../assets/BANNERS/banner4.png'
+import bannerM1 from '../assets/BANNERS/1.png'
+import bannerM2 from '../assets/BANNERS/2.png'
+import bannerM3 from '../assets/BANNERS/3.png'
+import bannerM4 from '../assets/BANNERS/4.png'
 
 const DEFAULT_ITEMS = [
   {
     id: 1,
     title: "Actor Name",
-    mobileImage: "/src/assets/BANNERS/1.png",
-    desktopImage: "/src/assets/BANNERS/banner.png",
+    mobileImage: bannerM1,
+    desktopImage: banner1,
   },
   {
     id: 2,
     title: "Actress Name",
-    mobileImage: "/src/assets/BANNERS/2.png",
-    desktopImage: "/src/assets/BANNERS/banner2.png",
+    mobileImage: bannerM2,
+    desktopImage: banner2,
   },
   {
     id: 3,
     title: "Model",
-    mobileImage: "/src/assets/BANNERS/3.png",
-    desktopImage: "/src/assets/BANNERS/banner3.png",
+    mobileImage: bannerM3,
+    desktopImage: banner3,
   },
   {
     id: 4,
     title: "Model",
-    mobileImage: "/src/assets/BANNERS/4.png",
-    desktopImage: "/src/assets/BANNERS/banner4.png",
+    mobileImage: bannerM4,
+    desktopImage: banner4,
   }
 ];
 
