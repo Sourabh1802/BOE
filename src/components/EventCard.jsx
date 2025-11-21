@@ -22,7 +22,6 @@ export default function EventCard({ event }) {
           {event.description}
         </p>
         <div className="text-xs text-gray-400 space-y-1">
-          <p>📅 {event.date}</p>
           <p>📍 {event.venue}</p>
         </div>
       </div>

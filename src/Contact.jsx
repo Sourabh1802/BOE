@@ -38,13 +38,13 @@ export default function Contact() {
 
             <div className="mt-5 text-sm text-gray-300 space-y-1">
               <div>
-                📞 Call:{' '}
+                Call:{' '}
                 <a href="tel:79771 18478 " className="underline hover:text-blue-400">
                 +91 79771 18478
                 </a> <br></br>
-                Email :
+                Email: <nbsp></nbsp><nbsp></nbsp>
                 <a href="mailto:info@blueorchidentertainment.com " className="underline hover:text-blue-400">
-                info@blueorchidentertainment.com
+                 info@blueorchidentertainment.com
                 </a> 
                 
                 {/* <a href="tel:7738050093 " className="underline hover:text-blue-400">7738050093</a> */}

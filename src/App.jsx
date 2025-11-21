@@ -11,36 +11,37 @@ import ClientsVideos from "./ClientsVideos";
 import BottomNav from "./components/BottomNav";
 import CardNav from "./components/CardNav";
 import Events from "./Events";
-import { Figma } from "lucide-react";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[url('/bg-pattern.png')] bg-cover bg-center text-slate-100 relative">
-      {/* 🟦 Header Section */}
+    <div className="min-h-screen bg-black text-white relative">
+      
+      {/* 🔹 Fixed Header */}
       <Header />
-    
 
-      {/* 🟢 Main Content */}
-      <main className="container-fluid mx-auto px-4 pb-24"> 
-        {/* Added bottom padding so content doesn’t hide behind BottomNav */}
+      {/* 🔹 Main Content */}
+      <main className="mx-auto px-0 sm:px-4 pb-24">
         <Hero />
-        <Events/>
-        {/* <Photos /> */}
+        {/* <Events /> */}
+
         <ClientsVideos />
         <Services />
+
+        {/* Optional sections */}
+        {/* <Photos /> */}
         {/* <About /> */}
         {/* <Team /> */}
+
         <Contact />
       </main>
 
-      {/* 🟣 Footer */}
+      {/* 🔹 Footer */}
       <Footer />
 
-      {/* 🟡 Mobile Bottom Navigation */}
+      {/* 🔹 Bottom Nav (if needed) */}
       {/* <div className="block md:hidden fixed bottom-0 left-0 w-full z-50">
         <BottomNav />
       </div> */}
     </div>
   );
 }
-
